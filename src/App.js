@@ -26,7 +26,7 @@ function App() {
       </Helmet>
       
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         
         <Route element={<PrivateRoute />}>
           <Route path="/" element={<AdminLayout />}>
